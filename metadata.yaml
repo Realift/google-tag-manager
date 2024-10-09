@@ -1,0 +1,5 @@
+homepage: "https://getrealift.com/"
+documentation: "https://github.com/Realift/google-tag-manager"
+versions:
+  - sha: 81d5665e7e1400e26d502564fbc99cf00ddd2cb7
+    changeNotes: Initial release.
