@@ -1,5 +1,7 @@
 homepage: "https://getrealift.com/"
 documentation: "https://github.com/Realift/google-tag-manager"
 versions:
+  - sha: 340fa86220cdb47e7999dba8796e7c9bca308a5d
+    changeNotes: encodeUriComponent variables
   - sha: 81d5665e7e1400e26d502564fbc99cf00ddd2cb7
     changeNotes: Initial release.
