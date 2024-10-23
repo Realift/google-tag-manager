@@ -45,8 +45,9 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
 
-injectScript('https://sdk.realift.io/sdk.js?source=tag-template&id='+data.account, data.gtmOnSuccess, data.gtmOnFailure);
+injectScript('https://sdk.realift.io/sdk.js?source=tag-template&id='+encodeUriComponent(data.account), data.gtmOnSuccess, data.gtmOnFailure);
 
 
 ___WEB_PERMISSIONS___
